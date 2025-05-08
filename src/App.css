@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow:hidden;
+  overflow:auto;
 }
 
 /* Base: mobile-first layout */
@@ -113,6 +113,12 @@ body {
 
 /* Tablet/Desktop Overrides */
 @media screen and (min-width: 769px) {
+	* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow:hidden;
+}
   .content {
     flex-direction: row;
     justify-content: center;

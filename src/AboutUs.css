@@ -33,7 +33,7 @@
   }
 @media screen and (max-width: 480px) and (orientation: landscape) {
 	.about-us-container{
-	width: 600px;
+	width: 700px;
 	text-align: justify;
 	}
 }
@@ -41,5 +41,21 @@
   .about-us-container {
     width: 1000px;
     text-align: justify;
+  }
+  .about-us-content {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+    .about-us-description {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+    .about-us-heading {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
   }
 }
