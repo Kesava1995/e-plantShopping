@@ -60,13 +60,13 @@ body {
 }
 
 .content h1 {
-  font-size: 28px;
+  font-size: 20px;
   color: white;
   margin-bottom: 10px;
 }
 
 .content p {
-  font-size: 16px;
+  font-size: 13px;
   color: white;
 }
 
@@ -79,7 +79,7 @@ body {
 
 .get-started-button {
   padding: 12px 20px;
-  font-size: 16px;
+  font-size: 15px;
   border: none;
   border-radius: 5px;
   background-color: #4caf50;
@@ -113,7 +113,7 @@ body {
 @media screen and (max-width: 640px) and (orientation: landscape) {
 	.content {
   display: flex;
-  flex-direction: row; /* stacked by default */
+  flex-direction: inline-block; /* stacked by default */
   align-items: center;
   gap:10px;
   }
@@ -127,11 +127,11 @@ body {
   }
   .content h1 {
   font-size: 14px;
-}
+  }
 
-.content p {
+  .content p {
   font-size: 9px;
-}
+  }
 }
 /* Tablet/Desktop Overrides */
 @media screen and (min-width: 769px) {
