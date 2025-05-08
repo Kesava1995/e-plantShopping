@@ -114,7 +114,6 @@ body {
 	.content {
   display: flex;
   flex-direction: row; /* stacked by default */
-  flex-wrap:wrap;
   align-items: center;
   gap:10px;
   }
