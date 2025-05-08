@@ -126,15 +126,15 @@ body {
     max-width: 45vw;
   }
   .get-started-button {
-	  font-size:12px;
+	  font-size:14px;
       padding: 12px 20px;
   }
   .content h1 {
-  font-size: 14px;
+  font-size: 17px;
   }
 
   .content p {
-  font-size: 9px;
+  font-size: 12px;
   }
 }
 /* Tablet/Desktop Overrides */
