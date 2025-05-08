@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow:auto;
+  overflow:hidden;
 }
 
 /* Base: mobile-first layout */
@@ -33,7 +33,7 @@ body {
 }
 
 .about-us-container{
-  width: 500px;
+  width: 300px;
   text-align: justify;
 }
 
@@ -110,7 +110,13 @@ body {
 .product-list-container.visible {
   top: 0;
 }
-
+@media screen and (max-width: 480px) and (orientation: landscape) {
+	.content {
+  display: flex;
+  flex-direction: row; /* stacked by default */
+  align-items: center;
+  }
+}
 /* Tablet/Desktop Overrides */
 @media screen and (min-width: 769px) {
 	* {

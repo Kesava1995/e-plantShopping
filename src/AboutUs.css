@@ -1,5 +1,5 @@
 .about-us-container {
-    width: 400px;
+    width: 300px;
     /* margin: 0 auto; */
     /* padding: 20px; */
     /* background-color: red; */
@@ -33,7 +33,7 @@
   }
 @media screen and (max-width: 480px) and (orientation: landscape) {
 	.about-us-container{
-	width: 700px;
+	width: 400px;
 	text-align: justify;
 	}
 }
