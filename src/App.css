@@ -111,16 +111,18 @@ body {
   top: 0;
 }
 @media screen and (max-width: 640px) and (orientation: landscape) {
-	.content {
-  display: flex;
-  flex-direction: inline-block; /* stacked by default */
-  align-items: center;
-  gap:10px;
+  .content {
+    display: flex;
+    flex-direction: row; /* horizontal stacking */
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap; /* allows wrapping if too cramped */
+    gap: 10px;
   }
     .landing_content,
   .about-us-container {
-    flex: 1 1 100%;
-    max-width: 90vw;
+    flex: 1 1 45%;
+    max-width: 45vw;
   }
   .get-started-button {
 	  font-size:12px
