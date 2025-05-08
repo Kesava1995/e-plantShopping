@@ -31,7 +31,7 @@
   .plant_logo_left{
     text-align: left;
   }
-@media screen and (max-width: 480px) and (orientation: landscape) {
+@media screen and (max-width: 640px) and (orientation: landscape) {
 	.about-us-container{
 	width: 400px;
 	text-align: justify;

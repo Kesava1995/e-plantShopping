@@ -110,12 +110,29 @@ body {
 .product-list-container.visible {
   top: 0;
 }
-@media screen and (max-width: 480px) and (orientation: landscape) {
+@media screen and (max-width: 640px) and (orientation: landscape) {
 	.content {
   display: flex;
   flex-direction: row; /* stacked by default */
+  flex-wrap:wrap;
   align-items: center;
+  gap:10px;
   }
+    .landing_content,
+  .about-us-container {
+    flex: 1 1 100%;
+    max-width: 90vw;
+  }
+  .get-started-button {
+	  font-size:12px
+  }
+  .content h1 {
+  font-size: 14px;
+}
+
+.content p {
+  font-size: 9px;
+}
 }
 /* Tablet/Desktop Overrides */
 @media screen and (min-width: 769px) {
